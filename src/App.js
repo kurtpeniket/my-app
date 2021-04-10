@@ -10,10 +10,10 @@ import ButtonAppBar from './ButtonAppBar';
 function App() {
   return (
     <BrowserRouter>
+      <ButtonAppBar />
+      {/* <Navbar /> */}
       <div className="App">
         <header className="App-header">
-          {/* <Navbar />         */}
-          <ButtonAppBar />
           <Home />
           <Button variant='contained' color='primary'>Button</Button>
         </header>
